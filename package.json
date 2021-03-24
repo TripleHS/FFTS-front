@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html --open",
-    "format": "prettier --write client/**/*.ts{,x}",
-    "lint": "tsc --noEmit && eslint client/**/*.ts{,x}"
+    "format": "prettier --write src/**/*.ts{,x}",
+    "lint": "tsc --noEmit && eslint src/**/*.ts{,x}"
   },
   "repository": {
     "type": "git",
