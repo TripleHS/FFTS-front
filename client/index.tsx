@@ -1,7 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./react/App"
 
-const dupa: string = "Olek to mistrzunio";
-console.log(dupa);
-
-ReactDOM.render(<p>{dupa}</p>, document.getElementById("root"));
+ReactDOM.render(<App/>, document.getElementById("root"));
