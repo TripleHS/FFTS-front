@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
 
-export default function CreateLabel({ description, children }:{description?:string, children?:string}) {
-    return (
-      <label className="p-1 flex justify-center">
-        <p className="w-1/4">{description}</p>
-        {children}
-      </label>
-    );
-  }
-  
+const CreateLabel: React.FC<{ description?: string }> = ({
+  description,
+  children,
+}) => {
+  return (
+    <label className="p-1 flex justify-center">
+      <p className="w-1/4">{description}</p>
+      {children}
+    </label>
+  );
+};
+export default CreateLabel;
