@@ -3,6 +3,7 @@ import CreateInput from "../components/Input";
 import handleInputChange from "../utils/handleInputChange";
 import CreateLabel from "../components/Label";
 import Context from "../context/ContextApp";
+import "tailwindcss/tailwind.css"
 
 function App() {
   const [name, setName] = useState("");
