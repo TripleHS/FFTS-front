@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import CreateInput from "../components/Input";
-import handleInputChange from "../utils/handleInputChange";
-import CreateLabel from "../components/Label";
-import Context from "../context/ContextApp";
+import CreateInput from "./components/Input";
+import handleInputChange from "./utils/handleInputChange";
+import CreateLabel from "./components/Label";
+import Context from "./context/ContextApp";
 import "tailwindcss/tailwind.css"
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
   const [date, setDate] = useState("");
   const [isSend, setIsSend] = useState(false);
 
-  function handleFormSubmit(e) {
+  function handleFormSubmit(e: Event) {
     e.preventDefault();
     setIsSend(!isSend);
   }
