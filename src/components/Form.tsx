@@ -1,13 +1,14 @@
 import React, { FormEvent, useState } from "react";
 import CreateInput from "./Input";
 import CreateLabel from "./Label";
+import FormSummary from "./FormSummary";
 
-const TextInput: React.FC = ({ label }, InputProps) => (
-  <div>
-    <label className="p-1 flex justify-center">{label}</label>
-    <input type="text" {...InputProps} />
-  </div>
-);
+// const TextInput: React.FC = ({ label }, InputProps) => (
+//   <div>
+//     <label className="p-1 flex justify-center">{label}</label>
+//     <input type="text" {...InputProps} />
+//   </div>
+// );
 
 export default function Form() {
   const [name, setName] = useState("");
@@ -21,30 +22,17 @@ export default function Form() {
   const [isSend, setIsSend] = useState(false);
 
   // TODO: convert this handler to match TS, fix state conditions
-  function handleInputChange(e: FormEvent) {
-    setName({ [e.target.name]: e.target.value });
+  function handleSelectChange(
+    e: React.ChangeEvent<HTMLSelectElement>,
+    fc: (a: string) => void
+  ) {
+    fc(e.target.value);
   }
 
   function handleFormSubmit(e: FormEvent) {
     e.preventDefault();
     setIsSend(!isSend);
   }
-
-  const FormSummary = () => (
-    <div>
-      <p>Podsumowanie:</p>
-      <p>
-        Zamawiający: {name} {surname}
-      </p>
-      <p>
-        Adres: {city} {code} {adress}
-      </p>
-      <p>Wybrana pizza: {pizza}</p>
-      <p>
-        Data i godzina: {date} {time}
-      </p>
-    </div>
-  );
 
   return (
     <div className="">
@@ -71,7 +59,7 @@ export default function Form() {
           <select
             required
             value={pizza}
-            onChange={handleInputChange}
+            onChange={(e) => handleSelectChange(e, setPizza)}
             className="w-1/5 basis"
           >
             <option>Wiejska</option>
@@ -90,9 +78,22 @@ export default function Form() {
         <CreateLabel description="Wybierz godzinę:">
           <CreateInput type="time" value={time} changeState={setTime} />
         </CreateLabel>
-        <CreateInput type="submit" value="Wyślij" className="m-auto" />
+        <button type="submit" className="m-auto">
+          Wyślij
+        </button>
       </form>
-      {isSend && <FormSummary/>}
+      {isSend && (
+        <FormSummary
+          name={name}
+          surname={surname}
+          city={city}
+          code={code}
+          adress={adress}
+          pizza={pizza}
+          date={date}
+          time={time}
+        />
+      )}
     </div>
   );
 }
