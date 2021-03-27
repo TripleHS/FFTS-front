@@ -22,11 +22,8 @@ export default function Form() {
   const [isSend, setIsSend] = useState(false);
 
   // TODO: convert this handler to match TS, fix state conditions
-  function handleSelectChange(
-    e: React.ChangeEvent<HTMLSelectElement>,
-    fc: (a: string) => void
-  ) {
-    fc(e.target.value);
+  function handleSelectChange(e: React.ChangeEvent<HTMLSelectElement>) {
+    setPizza(e.target.value);
   }
 
   function handleFormSubmit(e: FormEvent) {
@@ -59,7 +56,7 @@ export default function Form() {
           <select
             required
             value={pizza}
-            onChange={(e) => handleSelectChange(e, setPizza)}
+            onChange={handleSelectChange}
             className="w-1/5 basis"
           >
             <option>Wiejska</option>
@@ -84,14 +81,7 @@ export default function Form() {
       </form>
       {isSend && (
         <FormSummary
-          name={name}
-          surname={surname}
-          city={city}
-          code={code}
-          adress={adress}
-          pizza={pizza}
-          date={date}
-          time={time}
+          summaryData={{name, surname, city, code, adress, pizza, date, time}}
         />
       )}
     </div>

@@ -1,27 +1,29 @@
 import React from "react";
 
 const FormSummary: React.FC<{
-  name: string;
-  surname: string;
-  city: string;
-  code: string;
-  adress: string;
-  pizza: string;
-  date: string;
-  time: string;
-}> = ({ name, surname, city, code, adress, pizza, date, time }) => {
+  summaryData: {
+    name: string;
+    surname: string;
+    city: string;
+    code: string;
+    adress: string;
+    pizza: string;
+    date: string;
+    time: string;
+  };
+}> = ({ summaryData }) => {
   return (
     <div>
-      <p>Podsumowanie:</p>
+      <h3>Podsumowanie:</h3>
       <p>
-        Zamawiający: {name} {surname}
+        Zamawiający: {summaryData.name} {summaryData.surname}
       </p>
       <p>
-        Adres: {city} {code} {adress}
+        Adres: {summaryData.city} {summaryData.code} {summaryData.adress}
       </p>
-      <p>Wybrana pizza: {pizza}</p>
+      <p>Wybrana pizza: {summaryData.pizza}</p>
       <p>
-        Data i godzina: {date} {time}
+        Data i godzina: {summaryData.date} {summaryData.time}
       </p>
     </div>
   );
