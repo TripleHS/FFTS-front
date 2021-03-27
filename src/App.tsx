@@ -1,7 +1,7 @@
 import React from "react";
 import "tailwindcss/tailwind.css";
 import Form from "./components/Form";
-import AppContext from "./context/AppContext"
+import AppContext from "./context/AppContext/AppContext"
 
 function App() {
   return (
