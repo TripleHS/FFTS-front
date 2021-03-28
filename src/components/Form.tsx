@@ -1,9 +1,11 @@
-import React, { FormEvent, useState } from "react";
+import React, { FormEvent, useContext, useState } from "react";
 import CreateInput from "./Input";
 import CreateLabel from "./Label";
 import FormSummary from "./FormSummary";
+import FormContext from "../context/FormContext/FormContext";
+import { SET_ALERT } from "../context/types";
 
-// const TextInput: React.FC = ({ label }, InputProps) => (
+// const TextInput: React.FC = ({ label }, ...InputProps) => (
 //   <div>
 //     <label className="p-1 flex justify-center">{label}</label>
 //     <input type="text" {...InputProps} />
@@ -11,7 +13,12 @@ import FormSummary from "./FormSummary";
 // );
 
 export default function Form() {
+  const initialFormData = {
+    name: '',
+    surname: ''
+  }
   const [name, setName] = useState("");
+  const [formData, setFormData] = useState(initialFormData)
   const [surname, setSurname] = useState("");
   const [city, setCity] = useState("");
   const [code, setCode] = useState("");
@@ -20,6 +27,11 @@ export default function Form() {
   const [time, setTime] = useState("");
   const [date, setDate] = useState("");
   const [isSend, setIsSend] = useState(false);
+
+
+  const formState = useContext(FormContext)
+  console.log(formState)
+  const {loading, setLoading} = formState
 
   // TODO: convert this handler to match TS, fix state conditions
   function handleSelectChange(e: React.ChangeEvent<HTMLSelectElement>) {
@@ -31,15 +43,25 @@ export default function Form() {
     setIsSend(!isSend);
   }
 
+  function handleForm(e) {
+    console.log(e.target.name)
+    setFormData({[e.target.name]: e.target.value})
+  }
+
   return (
     <div className="">
+      <h1>{loading ? "LOADING!!!" : "NOT LOADING :<<<" }</h1>
+      <button onClick={()=> setLoading()}>CHANGE IT!</button>
       <form
         className="flex flex-col m-5 bg-gray-200 w-2/4 basis rounded-md p-2 text-center"
         onSubmit={(e) => handleFormSubmit(e)}
       >
-        <CreateLabel description="Imię:">
-          <CreateInput type="text" value={name} changeState={setName} />
-        </CreateLabel>
+          <label>Imię
+            <input type="text" value={formData.name} name="name" onChange={handleForm}/>
+          </label>
+          <div className="">
+          <label htmlFor="surname">nazwiusko</label>
+          <input type="text" name='surname' className={`${formData.name ? 1 : 0}`}/></div>
         <CreateLabel description="Nazwisko:">
           <CreateInput type="text" value={surname} changeState={setSurname} />
         </CreateLabel>
