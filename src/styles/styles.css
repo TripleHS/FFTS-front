@@ -3,3 +3,11 @@
 @tailwind  components;
 /* purgecss end ignore */
 @tailwind  utilities;
+
+@layer components {
+
+    .li-styles{
+        @apply my-2 mx-5 p-1 transition duration-500 ease-in-out transform rounded-md hover:bg-gray-500 hover:bg-opacity-20 hover:text-secondary
+    }
+    
+}
