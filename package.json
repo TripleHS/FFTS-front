@@ -1,12 +1,12 @@
 {
-  "name": "FFTS-front",
+  "name": "ffts-front",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html --open",
-    "format": "prettier --write src/**/*.ts{,x}",
+    "format": "prettier --write \"src/**/*.+(js|jsx|ts|tsx|json|yml|yaml|css|md)\"",
     "lint": "tsc --noEmit && eslint src/**/*.ts{,x}"
   },
   "repository": {
