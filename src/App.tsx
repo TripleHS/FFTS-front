@@ -1,9 +1,9 @@
-import React from "react";
-import "tailwindcss/tailwind.css";
-import Form from "./components/Form";
+import React from "react"
+import "tailwindcss/tailwind.css"
+import Form from "./components/Form"
 import AppContext from "./context/AppContext/AppContext"
-import CreateNavbar from './components/Navbar';
-import CreateFooter from './components/Footer';
+import Navbar from "./components/Navbar"
+import Footer from "./components/Footer"
 import {
   BrowserRouter as Router,
   Switch,
@@ -16,7 +16,7 @@ function App() {
     <AppContext.Provider value={null}>
       <Router>
         <div className="flex flex-col min-h-screen">
-          <CreateNavbar/>
+          <Navbar/>
           <div className="flex-1">
             <Switch>
               <Route path="/contact"></Route>
@@ -28,7 +28,7 @@ function App() {
               </Route>
              </Switch>
           </div>
-          <CreateFooter/>
+          <Footer/>
         </div>
       </Router>
     </AppContext.Provider>
@@ -36,4 +36,4 @@ function App() {
   );
 }
 
-export default App;
+export default App

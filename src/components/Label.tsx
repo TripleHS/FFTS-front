@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const CreateLabel: React.FC<{ description?: string }> = ({
   description,
@@ -9,6 +9,6 @@ const CreateLabel: React.FC<{ description?: string }> = ({
       <p className="w-1/4">{description}</p>
       {children}
     </label>
-  );
-};
-export default CreateLabel;
+  )
+}
+export default CreateLabel

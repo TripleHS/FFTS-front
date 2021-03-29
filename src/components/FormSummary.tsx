@@ -1,16 +1,16 @@
-import React from "react";
+import React from "react"
 
 const FormSummary: React.FC<{
   summaryData: {
-    name: string;
-    surname: string;
-    city: string;
-    code: string;
-    adress: string;
-    pizza: string;
-    date: string;
-    time: string;
-  };
+    name: string
+    surname: string
+    city: string
+    code: string
+    adress: string
+    pizza: string
+    date: string
+    time: string
+  }
 }> = ({ summaryData }) => {
   return (
     <div>
@@ -26,7 +26,7 @@ const FormSummary: React.FC<{
         Data i godzina: {summaryData.date} {summaryData.time}
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default FormSummary;
+export default FormSummary

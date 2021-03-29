@@ -7,7 +7,7 @@ import {
     Link
   } from "react-router-dom";
 
-const CreateNavbar = () => {
+const Navbar = () => {
     return(
         <nav>
             <div className="flex p-2 justify-between">
@@ -29,4 +29,4 @@ const CreateNavbar = () => {
     );
 }
 
-export default CreateNavbar;
+export default Navbar

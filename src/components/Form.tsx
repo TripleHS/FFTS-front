@@ -1,7 +1,7 @@
-import React, { FormEvent, useState } from "react";
-import CreateInput from "./Input";
-import CreateLabel from "./Label";
-import FormSummary from "./FormSummary";
+import React, { FormEvent, useState } from "react"
+import CreateInput from "./Input"
+import CreateLabel from "./Label"
+import FormSummary from "./FormSummary"
 
 // const TextInput: React.FC = ({ label }, InputProps) => (
 //   <div>
@@ -11,24 +11,24 @@ import FormSummary from "./FormSummary";
 // );
 
 export default function Form() {
-  const [name, setName] = useState("");
-  const [surname, setSurname] = useState("");
-  const [city, setCity] = useState("");
-  const [code, setCode] = useState("");
-  const [adress, setAdress] = useState("");
-  const [pizza, setPizza] = useState("");
-  const [time, setTime] = useState("");
-  const [date, setDate] = useState("");
-  const [isSend, setIsSend] = useState(false);
+  const [name, setName] = useState("")
+  const [surname, setSurname] = useState("")
+  const [city, setCity] = useState("")
+  const [code, setCode] = useState("")
+  const [adress, setAdress] = useState("")
+  const [pizza, setPizza] = useState("")
+  const [time, setTime] = useState("")
+  const [date, setDate] = useState("")
+  const [isSend, setIsSend] = useState(false)
 
   // TODO: convert this handler to match TS, fix state conditions
   function handleSelectChange(e: React.ChangeEvent<HTMLSelectElement>) {
-    setPizza(e.target.value);
+    setPizza(e.target.value)
   }
 
   function handleFormSubmit(e: FormEvent) {
-    e.preventDefault();
-    setIsSend(!isSend);
+    e.preventDefault()
+    setIsSend(!isSend)
   }
 
   return (
@@ -81,7 +81,7 @@ export default function Form() {
       </form>
       {isSend && (
         <FormSummary
-          summaryData={{name, surname, city, code, adress, pizza, date, time}}
+          summaryData={{ name, surname, city, code, adress, pizza, date, time }}
         />
       )}
     </>
