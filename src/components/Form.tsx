@@ -32,9 +32,9 @@ export default function Form() {
   }
 
   return (
-    <div className="">
+    <>
       <form
-        className="flex flex-col m-5 bg-gray-200 w-2/4 basis rounded-md p-2 text-center"
+        className="flex flex-col m-5 bg-gray-200 w-2/4 basis rounded-md p-2 text-center mx-auto"
         onSubmit={(e) => handleFormSubmit(e)}
       >
         <CreateLabel description="Imię:">
@@ -84,6 +84,6 @@ export default function Form() {
           summaryData={{name, surname, city, code, adress, pizza, date, time}}
         />
       )}
-    </div>
+    </>
   );
 }
