@@ -1,23 +1,26 @@
-import React, {useReducer} from 'react'
-import SearchEngineContext from './SearchEngineContext';
-import SearchEngineReducer from './SearchEngineReducer'
+import React, { useReducer } from "react"
+import SearchEngineContext from "./SearchEngineContext"
+import SearchEngineReducer from "./SearchEngineReducer"
 
-const SearchEngineState = ({children}) => {
-
+const SearchEngineState = ({ children }) => {
   const initialState = {
     speciality: "",
-    city: ""
+    city: "",
   }
 
-  const [state, dispatch] = useReducer( SearchEngineReducer, initialState);
+  const [state, dispatch] = useReducer(SearchEngineReducer, initialState)
 
-    return <SearchEngineContext.Provider value={{
-      speciality: state.speciality,
-      city: state.city,
-      dispatch
-    }}>
+  return (
+    <SearchEngineContext.Provider
+      value={{
+        speciality: state.speciality,
+        city: state.city,
+        dispatch,
+      }}
+    >
       {children}
     </SearchEngineContext.Provider>
+  )
 }
 
 export default SearchEngineState

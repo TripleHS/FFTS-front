@@ -4,8 +4,8 @@
 /* purgecss end ignore */
 @tailwind utilities;
 
-body{
-    height: 100vh;
+body {
+  height: 100vh;
 }
 
 @layer components {

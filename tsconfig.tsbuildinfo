@@ -246,28 +246,128 @@
         "signature": "5d708266116e778d6a4140fca2ac36f71d99b4c68bc3be63a45ba8bf5ade5348",
         "affectsGlobalScope": true
       },
-      "./src/components/input.tsx": {
-        "version": "47813f3611d93ac73112ae2b0b4522fd5ddbd86bdffdbb7ea472c4c56c17b98f",
-        "signature": "8b9abca544400c423b50cd6a40351a3807f0463a0426874767718dacad24b259",
+      "./src/context/appcontext/appcontext.jsx": {
+        "version": "8e8123da08690471fa2f5082903d60139bd5d159eabe941102c554beb5119d95",
+        "signature": "744285132f48c02debba41a015d213adffeb61a8afc1c737425f85f3349f2b00",
         "affectsGlobalScope": false
       },
-      "./src/components/label.tsx": {
-        "version": "594198f7e49e3f5a3f1e69f08226ceee32d3d563caedcdffcef31ab5e92d185e",
-        "signature": "ce73ecb627c6192db8d4a68113a5ba038ef11d91be4f5cc71b22161e9cf78d28",
+      "./node_modules/@types/history/domutils.d.ts": {
+        "version": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "signature": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/history/createbrowserhistory.d.ts": {
+        "version": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
+        "signature": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
         "affectsGlobalScope": false
       },
-      "./src/components/formsummary.tsx": {
-        "version": "ccc41b262e35d2afad88e4dab23882c4b1a2934f0442be2c90be7a33a2ca1b8d",
-        "signature": "3757961b0da2a2b92af7852cb2db79f751c689842b50840837661b40c66b6a7f",
+      "./node_modules/@types/history/createhashhistory.d.ts": {
+        "version": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
+        "signature": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
         "affectsGlobalScope": false
       },
-      "./src/components/form.tsx": {
-        "version": "1b1e6b3db7c2a19f7cec29289e1835fe70ae6e02212fce64db51aad00e8c9e80",
-        "signature": "b10b800ca468e43b16c9df6b60221c84af2e4d34f34c04a7840056905f3a0b7a",
+      "./node_modules/@types/history/creatememoryhistory.d.ts": {
+        "version": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "signature": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/locationutils.d.ts": {
+        "version": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "signature": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/pathutils.d.ts": {
+        "version": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "signature": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/index.d.ts": {
+        "version": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "signature": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router/index.d.ts": {
+        "version": "331ccc5c36630a5ced3990e2cd43a1b54a22179a861f9ddddd20d64ea88b3b97",
+        "signature": "331ccc5c36630a5ced3990e2cd43a1b54a22179a861f9ddddd20d64ea88b3b97",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router-dom/index.d.ts": {
+        "version": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "signature": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "affectsGlobalScope": false
+      },
+      "./src/components/navbar.jsx": {
+        "version": "ded8473565cd013614ca6131f304d50e705779e30f79e8f83710b15a864b88c9",
+        "signature": "1f40272ef763431a816987ec8c11b59ec35165754776cfa06fc66cba46282cee",
+        "affectsGlobalScope": false
+      },
+      "./src/components/footer.jsx": {
+        "version": "45972c85c69440d628eab0d00f4c3f1ed51aeeedff05e9349b9edac0984111cf",
+        "signature": "5aaf006eb2a8f1bb8b135dd485dead85347edc8cfd6c1fd1c26926be253b1bea",
+        "affectsGlobalScope": false
+      },
+      "./src/context/registercontext/registercontext.jsx": {
+        "version": "0496035595f99c313a807aa8b591ee9499daa7d48894a2fe9b46200af6278710",
+        "signature": "9e6a96587d4ad13276a0942066d4101e3cd2fb4009a9bf2dbf98f4340eaff947",
+        "affectsGlobalScope": false
+      },
+      "./src/context/registercontext/registerreducer.jsx": {
+        "version": "34634ec1d1f2e13410060f48d5c53d6bacdf419559a0f9517148ecb8cdb018a5",
+        "signature": "b8ff46965f7322ef2cb3569ecf5e12e0507c23c7da77b0c77f075681ca931ec4",
+        "affectsGlobalScope": false
+      },
+      "./src/context/registercontext/registerstate.jsx": {
+        "version": "d723d86b21f14bb2eeab16a6968d6d9428fa8da7b40efded80c2c9a8d7bb0f09",
+        "signature": "b83e2c0158731c6b86d56e1ecdad69cca1ce6895020f3934fd7243a51fd79c6f",
+        "affectsGlobalScope": false
+      },
+      "./src/components/register.jsx": {
+        "version": "18a8f6573085aaab9767e402b7b196c559603bf65b060f74bcf250c86634cb1a",
+        "signature": "2813202745c0d72c7214ec0ff41f49a01cd3ccb72b8b8d85bf39e69d2ebe15c7",
+        "affectsGlobalScope": false
+      },
+      "./src/context/logincontext/logincontext.jsx": {
+        "version": "6b93973995ec7e5a77595109921d36f50c1077c185a2fa227149b238ddf96ffe",
+        "signature": "6fc990974ac425fd9eb654a442bd1f7af7ec870cd9d8deb277a997960e3f6097",
+        "affectsGlobalScope": false
+      },
+      "./src/context/logincontext/loginreducer.jsx": {
+        "version": "9695ac4fc48422727af9010e979cfd8318331f6df97261793b19384c994b6596",
+        "signature": "49afff06d5067858e474172ac06926fdb31987c1c65941e3829704259d886590",
+        "affectsGlobalScope": false
+      },
+      "./src/context/logincontext/loginstate.jsx": {
+        "version": "43b53a7b99a0cff073be761406b52cc57e70228cb9ccd2ce4b6beeb877e8463b",
+        "signature": "0967866645361624e4346f401489e33112c151754474d078bbb23c04c7bd04fa",
+        "affectsGlobalScope": false
+      },
+      "./src/components/login.jsx": {
+        "version": "10c87b9693554a55cdeda167e0e5e736d3e289824e3f615afd538d05699a7c99",
+        "signature": "c3f84b347202bd8ce1a352bbb055ad0eb77b99b0b2e839a6c68388311521baa9",
+        "affectsGlobalScope": false
+      },
+      "./src/context/searchenginecontext/searchenginecontext.jsx": {
+        "version": "631d03479f334429747546cef7a7863a476e57c5f03356a4192cebdff70a506e",
+        "signature": "e24ed549740ad069331717ea3dd6a1859e8ca702a6f13c288d793c2605f56e74",
+        "affectsGlobalScope": false
+      },
+      "./src/context/searchenginecontext/searchenginereducer.jsx": {
+        "version": "af787894172cbc96205d8979848917dd0f3f06da5a3891d173a73e5eefbd2858",
+        "signature": "7af53c251423edd41e6e4570b4953e95f7f2dd587efba203df18445c04625320",
+        "affectsGlobalScope": false
+      },
+      "./src/context/searchenginecontext/searchenginestate.jsx": {
+        "version": "1c23a888e8ceaa25e339bfcf4508ea915bd7df271991b77a926f4ce50ccabe79",
+        "signature": "f4a2351156f38ea38959017067a2a3f0af1c9b53d4af48f475932c554996b8a6",
+        "affectsGlobalScope": false
+      },
+      "./src/components/searchengine.jsx": {
+        "version": "84ce92908a3e3f6df577f1d687e96196347e7c448521410095e491369daf82fd",
+        "signature": "7672bd654e6a8bd0f1f9e4adf50eba7daf737764b96f0f964f41d4fbfc2ebcf8",
         "affectsGlobalScope": false
       },
       "./src/app.tsx": {
-        "version": "19e7ae52290f65c0121fb4636861bccdbe8c986de37594fff6e2e77555c79bf1",
+        "version": "de52bba7c8827a007b0bd024911410d2035feb9fecf66e1d1c2f3d3c8ec39ff8",
         "signature": "7c55612bdb032444b32c5307aa58b450b268952c20673ea8f4143b4d2e1bdc8d",
         "affectsGlobalScope": false
       },
@@ -277,13 +377,33 @@
         "affectsGlobalScope": false
       },
       "./src/index.tsx": {
-        "version": "7030f0b77f0b3e0807faa8ed6206a5af9396ca7a5e5cf8c3a7b3b743d71b3111",
+        "version": "0285010be5336060babe0617b17a18fc86102be630bb7341d85de40063cbf3cc",
         "signature": "d24e9c635589e5dd97828e883326faa2864db76536424f30ad91f7b12cc02430",
         "affectsGlobalScope": false
       },
-      "./src/context/contextapp.tsx": {
-        "version": "d9ed1ecb782153384e435370b19d85d1e4af1f9bd20cdad15c4c728e0bf26196",
-        "signature": "ad8b1943ba7f383aff86dad2063a98426cf55dc905d4b921484c120629c1c13a",
+      "./src/components/input.tsx": {
+        "version": "792afdba8315e89bcf92f86cc07048bc15a30c53718630332184d35087d8f266",
+        "signature": "8b9abca544400c423b50cd6a40351a3807f0463a0426874767718dacad24b259",
+        "affectsGlobalScope": false
+      },
+      "./src/components/label.tsx": {
+        "version": "22862b989748bfe43c54c23fce0b9f325f3a92d89fb6daa446500cb78138824f",
+        "signature": "ce73ecb627c6192db8d4a68113a5ba038ef11d91be4f5cc71b22161e9cf78d28",
+        "affectsGlobalScope": false
+      },
+      "./src/components/formsummary.tsx": {
+        "version": "28df8e8922b5963b4213a2da1b3999f7cf7424ab423c9441ee92b9b2ae5e5faa",
+        "signature": "b1d5c5573820866bb892f53f9c64ccb2361d97fc463a6f5ce52e3950df874579",
+        "affectsGlobalScope": false
+      },
+      "./src/components/form.tsx": {
+        "version": "97852ea81a0012b9bb69b48d223d3b03ad96e7bde8a93e598d5de0eb4485c8b0",
+        "signature": "b10b800ca468e43b16c9df6b60221c84af2e4d34f34c04a7840056905f3a0b7a",
+        "affectsGlobalScope": false
+      },
+      "./src/context/types.js": {
+        "version": "3aae884d6373e80d2096119751cb6c2c6c4f63fd742ad64d2a2ae70aa328606f",
+        "signature": "183b20a19bf5a8ee990f3024951ec2dc35156e114e3ce7580b4857b099677be2",
         "affectsGlobalScope": false
       },
       "./node_modules/@types/json-schema/index.d.ts": {
@@ -335,7 +455,41 @@
       "configFilePath": "./tsconfig.json"
     },
     "referencedMap": {
+      "./node_modules/@types/history/createbrowserhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/createhashhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/creatememoryhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/index.d.ts": [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        "./node_modules/@types/history/locationutils.d.ts",
+        "./node_modules/@types/history/pathutils.d.ts"
+      ],
+      "./node_modules/@types/history/locationutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/pathutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
       "./node_modules/@types/react-dom/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router-dom/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react-router/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/@types/react/index.d.ts": [
@@ -345,8 +499,20 @@
         "./node_modules/csstype/index.d.ts"
       ],
       "./src/app.tsx": [
+        "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts",
-        "./src/components/form.tsx"
+        "./src/components/footer.jsx",
+        "./src/components/login.jsx",
+        "./src/components/navbar.jsx",
+        "./src/components/register.jsx",
+        "./src/components/searchengine.jsx",
+        "./src/context/appcontext/appcontext.jsx",
+        "./src/context/logincontext/loginstate.jsx",
+        "./src/context/registercontext/registerstate.jsx",
+        "./src/context/searchenginecontext/searchenginestate.jsx"
+      ],
+      "./src/components/footer.jsx": [
+        "./node_modules/@types/react/index.d.ts"
       ],
       "./src/components/form.tsx": [
         "./node_modules/@types/react/index.d.ts",
@@ -363,8 +529,51 @@
       "./src/components/label.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/context/contextapp.tsx": [
+      "./src/components/login.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/logincontext/logincontext.jsx",
+        "./src/context/logincontext/loginstate.jsx"
+      ],
+      "./src/components/navbar.jsx": [
+        "./node_modules/@types/react-router-dom/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/register.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/registercontext/registercontext.jsx",
+        "./src/context/registercontext/registerstate.jsx"
+      ],
+      "./src/components/searchengine.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/searchenginecontext/searchenginecontext.jsx",
+        "./src/context/searchenginecontext/searchenginestate.jsx"
+      ],
+      "./src/context/appcontext/appcontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/logincontext/logincontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/logincontext/loginstate.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/logincontext/logincontext.jsx",
+        "./src/context/logincontext/loginreducer.jsx"
+      ],
+      "./src/context/registercontext/registercontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/registercontext/registerstate.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/registercontext/registercontext.jsx",
+        "./src/context/registercontext/registerreducer.jsx"
+      ],
+      "./src/context/searchenginecontext/searchenginecontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/searchenginecontext/searchenginestate.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/searchenginecontext/searchenginecontext.jsx",
+        "./src/context/searchenginecontext/searchenginereducer.jsx"
       ],
       "./src/index.tsx": [
         "./node_modules/@types/react-dom/index.d.ts",
@@ -373,7 +582,41 @@
       ]
     },
     "exportedModulesMap": {
+      "./node_modules/@types/history/createbrowserhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/createhashhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/creatememoryhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/index.d.ts": [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        "./node_modules/@types/history/locationutils.d.ts",
+        "./node_modules/@types/history/pathutils.d.ts"
+      ],
+      "./node_modules/@types/history/locationutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/pathutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
       "./node_modules/@types/react-dom/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router-dom/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react-router/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
         "./node_modules/@types/react/index.d.ts"
       ],
       "./node_modules/@types/react/index.d.ts": [
@@ -391,16 +634,34 @@
       "./src/components/label.tsx": [
         "./node_modules/@types/react/index.d.ts"
       ],
-      "./src/context/contextapp.tsx": [
+      "./src/context/appcontext/appcontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/logincontext/logincontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/registercontext/registercontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/searchenginecontext/searchenginecontext.jsx": [
         "./node_modules/@types/react/index.d.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
+      "./node_modules/@types/history/createbrowserhistory.d.ts",
+      "./node_modules/@types/history/createhashhistory.d.ts",
+      "./node_modules/@types/history/creatememoryhistory.d.ts",
+      "./node_modules/@types/history/domutils.d.ts",
+      "./node_modules/@types/history/index.d.ts",
+      "./node_modules/@types/history/locationutils.d.ts",
+      "./node_modules/@types/history/pathutils.d.ts",
       "./node_modules/@types/json-schema/index.d.ts",
       "./node_modules/@types/json5/index.d.ts",
       "./node_modules/@types/prop-types/index.d.ts",
       "./node_modules/@types/q/index.d.ts",
       "./node_modules/@types/react-dom/index.d.ts",
+      "./node_modules/@types/react-router-dom/index.d.ts",
+      "./node_modules/@types/react-router/index.d.ts",
       "./node_modules/@types/react/global.d.ts",
       "./node_modules/@types/react/index.d.ts",
       "./node_modules/@types/scheduler/index.d.ts",
@@ -450,15 +711,71 @@
       "./node_modules/typescript/lib/lib.esnext.promise.d.ts",
       "./node_modules/typescript/lib/lib.esnext.string.d.ts",
       "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
-      "./src/app.tsx",
+      [
+        "./src/app.tsx",
+        [
+          {
+            "file": "./src/app.tsx",
+            "start": 288,
+            "length": 4,
+            "messageText": "'Link' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      "./src/components/footer.jsx",
       "./src/components/form.tsx",
       "./src/components/formsummary.tsx",
       "./src/components/input.tsx",
       "./src/components/label.tsx",
-      "./src/context/contextapp.tsx",
+      "./src/components/login.jsx",
+      "./src/components/navbar.jsx",
+      "./src/components/register.jsx",
+      "./src/components/searchengine.jsx",
+      "./src/context/appcontext/appcontext.jsx",
+      "./src/context/logincontext/logincontext.jsx",
+      "./src/context/logincontext/loginreducer.jsx",
+      "./src/context/logincontext/loginstate.jsx",
+      "./src/context/registercontext/registercontext.jsx",
+      "./src/context/registercontext/registerreducer.jsx",
+      "./src/context/registercontext/registerstate.jsx",
+      "./src/context/searchenginecontext/searchenginecontext.jsx",
+      "./src/context/searchenginecontext/searchenginereducer.jsx",
+      "./src/context/searchenginecontext/searchenginestate.jsx",
+      "./src/context/types.js",
       "./src/index.tsx"
     ],
     "affectedFilesPendingEmit": [
+      [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/domutils.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/locationutils.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/pathutils.d.ts",
+        1
+      ],
       [
         "./node_modules/@types/json-schema/index.d.ts",
         1
@@ -477,6 +794,14 @@
       ],
       [
         "./node_modules/@types/react-dom/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react-router/index.d.ts",
         1
       ],
       [
@@ -532,6 +857,10 @@
         1
       ],
       [
+        "./src/components/footer.jsx",
+        1
+      ],
+      [
         "./src/components/form.tsx",
         1
       ],
@@ -548,7 +877,67 @@
         1
       ],
       [
+        "./src/components/login.jsx",
+        1
+      ],
+      [
+        "./src/components/navbar.jsx",
+        1
+      ],
+      [
+        "./src/components/register.jsx",
+        1
+      ],
+      [
+        "./src/components/searchengine.jsx",
+        1
+      ],
+      [
+        "./src/context/appcontext/appcontext.jsx",
+        1
+      ],
+      [
         "./src/context/contextapp.tsx",
+        1
+      ],
+      [
+        "./src/context/logincontext/logincontext.jsx",
+        1
+      ],
+      [
+        "./src/context/logincontext/loginreducer.jsx",
+        1
+      ],
+      [
+        "./src/context/logincontext/loginstate.jsx",
+        1
+      ],
+      [
+        "./src/context/registercontext/registercontext.jsx",
+        1
+      ],
+      [
+        "./src/context/registercontext/registerreducer.jsx",
+        1
+      ],
+      [
+        "./src/context/registercontext/registerstate.jsx",
+        1
+      ],
+      [
+        "./src/context/searchenginecontext/searchenginecontext.jsx",
+        1
+      ],
+      [
+        "./src/context/searchenginecontext/searchenginereducer.jsx",
+        1
+      ],
+      [
+        "./src/context/searchenginecontext/searchenginestate.jsx",
+        1
+      ],
+      [
+        "./src/context/types.js",
         1
       ],
       [

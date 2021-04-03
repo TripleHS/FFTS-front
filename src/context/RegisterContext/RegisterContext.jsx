@@ -1,5 +1,5 @@
-import {createContext} from 'react'
+import { createContext } from "react"
 
-const RegisterContext = createContext();
+const RegisterContext = createContext()
 
 export default RegisterContext

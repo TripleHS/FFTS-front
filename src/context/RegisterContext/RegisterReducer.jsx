@@ -1,42 +1,42 @@
 const RegisterReducer = (state, action) => {
-
-  switch(action.type) {
-    case 'SET_NAME':
+  switch (action.type) {
+    case "SET_NAME":
       return {
         ...state,
-        name: action.content
-    }
-    case 'SET_SURNAME':
-      return {
-        ...state,
-        surname: action.content
+        name: action.content,
       }
-    case 'SET_CITY':
+    case "SET_SURNAME":
       return {
         ...state,
-        city: action.content
+        surname: action.content,
       }
-    case 'SET_EMAIL':
+    case "SET_CITY":
       return {
         ...state,
-        email: action.content
+        city: action.content,
       }
-    case 'SET_PASSWORD':
+    case "SET_EMAIL":
       return {
         ...state,
-        password: action.content
+        email: action.content,
       }
-    case 'SET_REPASSWORD':
+    case "SET_PASSWORD":
       return {
         ...state,
-        repassword: action.content
+        password: action.content,
       }
-    case 'SET_LOADING':
+    case "SET_REPASSWORD":
       return {
         ...state,
-        loading: !state.loading
+        repassword: action.content,
       }
-    default: return state
+    case "SET_LOADING":
+      return {
+        ...state,
+        loading: !state.loading,
+      }
+    default:
+      return state
   }
 }
 
