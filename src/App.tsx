@@ -1,6 +1,6 @@
 import React from "react"
 import "tailwindcss/tailwind.css"
-import Form from "./components/Form"
+// import Form from "./components/Form"
 import AppContext from "./context/AppContext/AppContext"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
@@ -10,6 +10,12 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import RegisterState from "./context/RegisterContext/RegisterState";
+import Register from './components/Register';
+import LoginState from "./context/LoginContext/LoginState";
+import Login from './components/Login';
+import SearchEngineState from "./context/SearchEngineContext/SearchEngineState";
+import SearchEngine from './components/SearchEngine';
 
 function App() {
   return (
@@ -21,10 +27,20 @@ function App() {
             <Switch>
               <Route path="/contact"></Route>
               <Route path="/q&a"></Route>
-              <Route path="/register"></Route>
-              <Route path="/signin"></Route>
+              <Route path="/register">
+                <RegisterState>
+                  <Register/>
+                </RegisterState>
+              </Route>
+              <Route path="/login">
+                <LoginState>
+                    <Login/>
+                  </LoginState>
+              </Route>
               <Route path="">
-                <Form />
+                <SearchEngineState>
+                  <SearchEngine/>
+                </SearchEngineState>
               </Route>
              </Switch>
           </div>
@@ -32,7 +48,6 @@ function App() {
         </div>
       </Router>
     </AppContext.Provider>
-    
   );
 }
 

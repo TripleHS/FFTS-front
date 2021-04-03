@@ -20,7 +20,7 @@ const Navbar = () => {
                         <li className="li-styles"><Link to="/q&a">Pytania i odpowiedzi</Link></li>
                         <li className="li-styles"><Link to="/contact">Kontakt</Link></li>
                         <li className="li-styles"><Link to="/register">Zarejestruj się</Link></li>
-                        <li className="li-styles"><Link to="/signin">Zaloguj się</Link></li>
+                        <li className="li-styles"><Link to="/login">Zaloguj się</Link></li>
                     </ul>
                     <p className="text-secondaryBg my-auto mr-4">Infolinia: 874 459 985</p>
                 </div>
