@@ -9,7 +9,7 @@ module.exports = {
         secondaryBg:'#00b8bc',
         footer:'#404e7c',
         danger:'#e3342f'
-      }
+      },
     },
   },
 

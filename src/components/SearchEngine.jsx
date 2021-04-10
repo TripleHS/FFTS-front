@@ -25,7 +25,7 @@ export default function SearchEngine() {
   }
 
   return (
-    <div className="">
+    <div className="flex justify-center">
       <form
         className="flex flex-col m-5 bg-gray-200 w-2/4 basis rounded-md p-2 text-center"
         onSubmit={(e) => handleFormSubmit(e)}

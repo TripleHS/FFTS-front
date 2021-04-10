@@ -11,6 +11,7 @@ import LoginState from "./context/LoginContext/LoginState"
 import Login from "./components/Login"
 import SearchEngineState from "./context/SearchEngineContext/SearchEngineState"
 import SearchEngine from "./components/SearchEngine"
+import Slider from "./components/Slider/Slider"
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
               </Route>
               <Route path="">
                 <SearchEngineState>
-                  <SearchEngine />
+                      <SearchEngine/>
+                      <Slider/>
                 </SearchEngineState>
               </Route>
             </Switch>
