@@ -1,0 +1,950 @@
+{
+  "program": {
+    "fileInfos": {
+      "./node_modules/typescript/lib/lib.es5.d.ts": {
+        "version": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "signature": "b3584bc5798ed422ce2516df360ffa9cf2d80b5eae852867db9ba3743145f895",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.d.ts": {
+        "version": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "signature": "dc47c4fa66b9b9890cf076304de2a9c5201e94b740cffdf09f87296d877d71f6",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2016.d.ts": {
+        "version": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "signature": "7a387c58583dfca701b6c85e0adaf43fb17d590fb16d5b2dc0a2fbd89f35c467",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2017.d.ts": {
+        "version": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "signature": "8a12173c586e95f4433e0c6dc446bc88346be73ffe9ca6eec7aa63c8f3dca7f9",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2018.d.ts": {
+        "version": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "signature": "5f4e733ced4e129482ae2186aae29fde948ab7182844c3a5a51dd346182c7b06",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2019.d.ts": {
+        "version": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
+        "signature": "e6b724280c694a9f588847f754198fb96c43d805f065c3a5b28bbc9594541c84",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.es2020.d.ts": {
+        "version": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
+        "signature": "e21c071ca3e1b4a815d5f04a7475adcaeea5d64367e840dd0154096d705c3940",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.esnext.d.ts": {
+        "version": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
+        "signature": "fc7a21dd3ee27fd0a9ff1c46534efcd9c3cec51a445b479bb326d871c0aa8302",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/typescript/lib/lib.dom.d.ts": {
+        "version": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "signature": "feeeb1dd8a80fb76be42b0426e8f3ffa9bdef3c2f3c12c147e7660b1c5ba8b3b",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.dom.iterable.d.ts": {
+        "version": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
+        "signature": "d42f4141bd9ce82b4e2902f26acb00c183e321be19a38bbc0e76a922c1724c94",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts": {
+        "version": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "signature": "46ee15e9fefa913333b61eaf6b18885900b139867d89832a515059b62cf16a17",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts": {
+        "version": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "signature": "43fb1d932e4966a39a41b464a12a81899d9ae5f2c829063f5571b6b87e6d2f9c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts": {
+        "version": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "signature": "cdccba9a388c2ee3fd6ad4018c640a471a6c060e96f1232062223063b0a5ac6a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts": {
+        "version": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "signature": "8b2a5df1ce95f78f6b74f1a555ccdb6baab0486b42d8345e0871dd82811f9b9a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts": {
+        "version": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "signature": "2bb4b3927299434052b37851a47bf5c39764f2ba88a888a107b32262e9292b7c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts": {
+        "version": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "signature": "810627a82ac06fb5166da5ada4159c4ec11978dfbb0805fe804c86406dab8357",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts": {
+        "version": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "signature": "62d80405c46c3f4c527ee657ae9d43fda65a0bf582292429aea1e69144a522a6",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts": {
+        "version": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "signature": "3013574108c36fd3aaca79764002b3717da09725a36a6fc02eac386593110f93",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts": {
+        "version": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "signature": "9d122b7e8c1a5c72506eea50c0973cba55b92b5532d5cafa8a6ce2c547d57551",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts": {
+        "version": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "signature": "3be5a1453daa63e031d266bf342f3943603873d890ab8b9ada95e22389389006",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts": {
+        "version": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "signature": "17bb1fc99591b00515502d264fa55dc8370c45c5298f4a5c2083557dccba5a2a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts": {
+        "version": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "signature": "7ce9f0bde3307ca1f944119f6365f2d776d281a393b576a18a2f2893a2d75c98",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts": {
+        "version": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "signature": "6a6b173e739a6a99629a8594bfb294cc7329bfb7b227f12e1f7c11bc163b8577",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts": {
+        "version": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "signature": "12a310447c5d23c7d0d5ca2af606e3bd08afda69100166730ab92c62999ebb9d",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts": {
+        "version": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "signature": "b0124885ef82641903d232172577f2ceb5d3e60aed4da1153bab4221e1f6dd4e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts": {
+        "version": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "signature": "0eb85d6c590b0d577919a79e0084fa1744c1beba6fd0d4e951432fa1ede5510a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts": {
+        "version": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "signature": "a40c4d82bf13fcded295ac29f354eb7d40249613c15e07b53f2fc75e45e16359",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts": {
+        "version": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "signature": "df9c8a72ca8b0ed62f5470b41208a0587f0f73f0a7db28e5a1272cf92537518e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts": {
+        "version": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "signature": "bb2d3fb05a1d2ffbca947cc7cbc95d23e1d053d6595391bd325deb265a18d36c",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts": {
+        "version": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "signature": "c80df75850fea5caa2afe43b9949338ce4e2de086f91713e9af1a06f973872b8",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2019.array.d.ts": {
+        "version": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
+        "signature": "9d57b2b5d15838ed094aa9ff1299eecef40b190722eb619bac4616657a05f951",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2019.object.d.ts": {
+        "version": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
+        "signature": "6c51b5dd26a2c31dbf37f00cfc32b2aa6a92e19c995aefb5b97a3a64f1ac99de",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2019.string.d.ts": {
+        "version": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
+        "signature": "93544ca2f26a48716c1b6c5091842cad63129daac422dfa4bc52460465f22bb1",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2019.symbol.d.ts": {
+        "version": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
+        "signature": "2ad234885a4240522efccd77de6c7d99eecf9b4de0914adb9a35c0c22433f993",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts": {
+        "version": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "signature": "7b5a10e3c897fabece5a51aa85b4111727d7adb53c2734b5d37230ff96802a09",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.promise.d.ts": {
+        "version": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
+        "signature": "7435b75fdf3509622e79622dbe5091cf4b09688410ee2034e4fc17d0c99d0862",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts": {
+        "version": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
+        "signature": "e7e8e1d368290e9295ef18ca23f405cf40d5456fa9f20db6373a61ca45f75f40",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.string.d.ts": {
+        "version": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
+        "signature": "faf0221ae0465363c842ce6aa8a0cbda5d9296940a8e26c86e04cc4081eea21e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts": {
+        "version": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
+        "signature": "936d7d2e8851af9ccfa5333b15e877a824417d352b1d7fd06388639dc69ef80a",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.es2020.intl.d.ts": {
+        "version": "e79ca55569f09a5dc3354be04dba4ae85865b1dce98bf46738ffe231c669621f",
+        "signature": "e79ca55569f09a5dc3354be04dba4ae85865b1dce98bf46738ffe231c669621f",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts": {
+        "version": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "signature": "506b80b9951c9381dc5f11897b31fca5e2a65731d96ddefa19687fbc26b23c6e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.string.d.ts": {
+        "version": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
+        "signature": "fb4416144c1bf0323ccbc9afb0ab289c07312214e8820ad17d709498c865a3fe",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.promise.d.ts": {
+        "version": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
+        "signature": "cd6efb9467a8b6338ece2e2855e37765700f2cd061ca54b01b33878cf5c7677e",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/typescript/lib/lib.esnext.weakref.d.ts": {
+        "version": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
+        "signature": "1e61418f41d404e744b6536af9f8c6f6674dd4d54c12335cd0c4f7eded69cf3f",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/react/global.d.ts": {
+        "version": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "signature": "ecf78e637f710f340ec08d5d92b3f31b134a46a4fcf2e758690d8c46ce62cba6",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/csstype/index.d.ts": {
+        "version": "0a6f28e1d77b99b0ef7da2f0bf50f301ea8a7eb7b4f573e458e725452a477bd2",
+        "signature": "0a6f28e1d77b99b0ef7da2f0bf50f301ea8a7eb7b4f573e458e725452a477bd2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/prop-types/index.d.ts": {
+        "version": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "signature": "a7e32dcb90bf0c1b7a1e4ac89b0f7747cbcba25e7beddc1ebf17be1e161842ad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/scheduler/tracing.d.ts": {
+        "version": "f5a8b384f182b3851cec3596ccc96cb7464f8d3469f48c74bf2befb782a19de5",
+        "signature": "f5a8b384f182b3851cec3596ccc96cb7464f8d3469f48c74bf2befb782a19de5",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react/index.d.ts": {
+        "version": "5d708266116e778d6a4140fca2ac36f71d99b4c68bc3be63a45ba8bf5ade5348",
+        "signature": "5d708266116e778d6a4140fca2ac36f71d99b4c68bc3be63a45ba8bf5ade5348",
+        "affectsGlobalScope": true
+      },
+      "./src/context/appcontext/appcontext.jsx": {
+        "version": "8e8123da08690471fa2f5082903d60139bd5d159eabe941102c554beb5119d95",
+        "signature": "744285132f48c02debba41a015d213adffeb61a8afc1c737425f85f3349f2b00",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/domutils.d.ts": {
+        "version": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "signature": "271cde49dfd9b398ccc91bb3aaa43854cf76f4d14e10fed91cbac649aa6cbc63",
+        "affectsGlobalScope": true
+      },
+      "./node_modules/@types/history/createbrowserhistory.d.ts": {
+        "version": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
+        "signature": "c6f2572e21f626260d2e4a65e4e1e42b9b273b6f43b5c3bc115c2926417d3eca",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/createhashhistory.d.ts": {
+        "version": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
+        "signature": "374ab77e05e0bf5a52acad6d65121d4bd31068108f23d70186dba5fcd7d6a1a3",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/creatememoryhistory.d.ts": {
+        "version": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "signature": "a4ecd4bb653aa71093375845fba6250ca0f3c633d0e933fc9bf4b301834eab27",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/locationutils.d.ts": {
+        "version": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "signature": "25d91fb9ed77a828cc6c7a863236fb712dafcd52f816eec481bd0c1f589f4404",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/pathutils.d.ts": {
+        "version": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "signature": "4cd14cea22eed1bfb0dc76183e56989f897ac5b14c0e2a819e5162eafdcfe243",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/history/index.d.ts": {
+        "version": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "signature": "cc53cba64efb30576f2a36f1d7107e4453e84cbd0f371d49cd1dfd208e11233b",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router/index.d.ts": {
+        "version": "331ccc5c36630a5ced3990e2cd43a1b54a22179a861f9ddddd20d64ea88b3b97",
+        "signature": "331ccc5c36630a5ced3990e2cd43a1b54a22179a861f9ddddd20d64ea88b3b97",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-router-dom/index.d.ts": {
+        "version": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "signature": "b89701b714364b5bcb0b58e83725aa02a4f41df8357000b4e8fe60566bf805ac",
+        "affectsGlobalScope": false
+      },
+      "./src/components/navbar.jsx": {
+        "version": "ded8473565cd013614ca6131f304d50e705779e30f79e8f83710b15a864b88c9",
+        "signature": "1f40272ef763431a816987ec8c11b59ec35165754776cfa06fc66cba46282cee",
+        "affectsGlobalScope": false
+      },
+      "./src/components/footer.jsx": {
+        "version": "45972c85c69440d628eab0d00f4c3f1ed51aeeedff05e9349b9edac0984111cf",
+        "signature": "5aaf006eb2a8f1bb8b135dd485dead85347edc8cfd6c1fd1c26926be253b1bea",
+        "affectsGlobalScope": false
+      },
+      "./src/context/registercontext/registercontext.jsx": {
+        "version": "0496035595f99c313a807aa8b591ee9499daa7d48894a2fe9b46200af6278710",
+        "signature": "9e6a96587d4ad13276a0942066d4101e3cd2fb4009a9bf2dbf98f4340eaff947",
+        "affectsGlobalScope": false
+      },
+      "./src/context/registercontext/registerreducer.jsx": {
+        "version": "34634ec1d1f2e13410060f48d5c53d6bacdf419559a0f9517148ecb8cdb018a5",
+        "signature": "b8ff46965f7322ef2cb3569ecf5e12e0507c23c7da77b0c77f075681ca931ec4",
+        "affectsGlobalScope": false
+      },
+      "./src/context/registercontext/registerstate.jsx": {
+        "version": "d723d86b21f14bb2eeab16a6968d6d9428fa8da7b40efded80c2c9a8d7bb0f09",
+        "signature": "b83e2c0158731c6b86d56e1ecdad69cca1ce6895020f3934fd7243a51fd79c6f",
+        "affectsGlobalScope": false
+      },
+      "./src/components/register.jsx": {
+        "version": "18a8f6573085aaab9767e402b7b196c559603bf65b060f74bcf250c86634cb1a",
+        "signature": "2813202745c0d72c7214ec0ff41f49a01cd3ccb72b8b8d85bf39e69d2ebe15c7",
+        "affectsGlobalScope": false
+      },
+      "./src/context/logincontext/logincontext.jsx": {
+        "version": "6b93973995ec7e5a77595109921d36f50c1077c185a2fa227149b238ddf96ffe",
+        "signature": "6fc990974ac425fd9eb654a442bd1f7af7ec870cd9d8deb277a997960e3f6097",
+        "affectsGlobalScope": false
+      },
+      "./src/context/logincontext/loginreducer.jsx": {
+        "version": "9695ac4fc48422727af9010e979cfd8318331f6df97261793b19384c994b6596",
+        "signature": "49afff06d5067858e474172ac06926fdb31987c1c65941e3829704259d886590",
+        "affectsGlobalScope": false
+      },
+      "./src/context/logincontext/loginstate.jsx": {
+        "version": "43b53a7b99a0cff073be761406b52cc57e70228cb9ccd2ce4b6beeb877e8463b",
+        "signature": "0967866645361624e4346f401489e33112c151754474d078bbb23c04c7bd04fa",
+        "affectsGlobalScope": false
+      },
+      "./src/components/login.jsx": {
+        "version": "10c87b9693554a55cdeda167e0e5e736d3e289824e3f615afd538d05699a7c99",
+        "signature": "c3f84b347202bd8ce1a352bbb055ad0eb77b99b0b2e839a6c68388311521baa9",
+        "affectsGlobalScope": false
+      },
+      "./src/context/searchenginecontext/searchenginecontext.jsx": {
+        "version": "631d03479f334429747546cef7a7863a476e57c5f03356a4192cebdff70a506e",
+        "signature": "e24ed549740ad069331717ea3dd6a1859e8ca702a6f13c288d793c2605f56e74",
+        "affectsGlobalScope": false
+      },
+      "./src/context/searchenginecontext/searchenginereducer.jsx": {
+        "version": "af787894172cbc96205d8979848917dd0f3f06da5a3891d173a73e5eefbd2858",
+        "signature": "7af53c251423edd41e6e4570b4953e95f7f2dd587efba203df18445c04625320",
+        "affectsGlobalScope": false
+      },
+      "./src/context/searchenginecontext/searchenginestate.jsx": {
+        "version": "1c23a888e8ceaa25e339bfcf4508ea915bd7df271991b77a926f4ce50ccabe79",
+        "signature": "f4a2351156f38ea38959017067a2a3f0af1c9b53d4af48f475932c554996b8a6",
+        "affectsGlobalScope": false
+      },
+      "./src/components/searchengine.jsx": {
+        "version": "84ce92908a3e3f6df577f1d687e96196347e7c448521410095e491369daf82fd",
+        "signature": "7672bd654e6a8bd0f1f9e4adf50eba7daf737764b96f0f964f41d4fbfc2ebcf8",
+        "affectsGlobalScope": false
+      },
+      "./src/app.tsx": {
+        "version": "de52bba7c8827a007b0bd024911410d2035feb9fecf66e1d1c2f3d3c8ec39ff8",
+        "signature": "7c55612bdb032444b32c5307aa58b450b268952c20673ea8f4143b4d2e1bdc8d",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/react-dom/index.d.ts": {
+        "version": "ee7266c6f312a6bf9612691b7fff1dfde32a609d150521c1f20d3f7972bc7586",
+        "signature": "ee7266c6f312a6bf9612691b7fff1dfde32a609d150521c1f20d3f7972bc7586",
+        "affectsGlobalScope": false
+      },
+      "./src/index.tsx": {
+        "version": "0285010be5336060babe0617b17a18fc86102be630bb7341d85de40063cbf3cc",
+        "signature": "d24e9c635589e5dd97828e883326faa2864db76536424f30ad91f7b12cc02430",
+        "affectsGlobalScope": false
+      },
+      "./src/components/input.tsx": {
+        "version": "792afdba8315e89bcf92f86cc07048bc15a30c53718630332184d35087d8f266",
+        "signature": "8b9abca544400c423b50cd6a40351a3807f0463a0426874767718dacad24b259",
+        "affectsGlobalScope": false
+      },
+      "./src/components/label.tsx": {
+        "version": "22862b989748bfe43c54c23fce0b9f325f3a92d89fb6daa446500cb78138824f",
+        "signature": "ce73ecb627c6192db8d4a68113a5ba038ef11d91be4f5cc71b22161e9cf78d28",
+        "affectsGlobalScope": false
+      },
+      "./src/components/formsummary.tsx": {
+        "version": "28df8e8922b5963b4213a2da1b3999f7cf7424ab423c9441ee92b9b2ae5e5faa",
+        "signature": "b1d5c5573820866bb892f53f9c64ccb2361d97fc463a6f5ce52e3950df874579",
+        "affectsGlobalScope": false
+      },
+      "./src/components/form.tsx": {
+        "version": "97852ea81a0012b9bb69b48d223d3b03ad96e7bde8a93e598d5de0eb4485c8b0",
+        "signature": "b10b800ca468e43b16c9df6b60221c84af2e4d34f34c04a7840056905f3a0b7a",
+        "affectsGlobalScope": false
+      },
+      "./src/context/types.js": {
+        "version": "3aae884d6373e80d2096119751cb6c2c6c4f63fd742ad64d2a2ae70aa328606f",
+        "signature": "183b20a19bf5a8ee990f3024951ec2dc35156e114e3ce7580b4857b099677be2",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/json-schema/index.d.ts": {
+        "version": "3a1e165b22a1cb8df82c44c9a09502fd2b33f160cd277de2cd3a055d8e5c6b27",
+        "signature": "3a1e165b22a1cb8df82c44c9a09502fd2b33f160cd277de2cd3a055d8e5c6b27",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/json5/index.d.ts": {
+        "version": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
+        "signature": "96d14f21b7652903852eef49379d04dbda28c16ed36468f8c9fa08f7c14c9538",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/q/index.d.ts": {
+        "version": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
+        "signature": "f9a2dd6a6084665f093ed0e9664b8e673be2a45e342a59dd4e0e4e552e68a9ad",
+        "affectsGlobalScope": false
+      },
+      "./node_modules/@types/scheduler/index.d.ts": {
+        "version": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5",
+        "signature": "3169db033165677f1d414baf0c82ba27801089ca1b66d97af464512a47df31b5",
+        "affectsGlobalScope": false
+      }
+    },
+    "options": {
+      "target": 1,
+      "lib": [
+        "lib.dom.d.ts",
+        "lib.dom.iterable.d.ts",
+        "lib.esnext.d.ts"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "esModuleInterop": true,
+      "allowSyntheticDefaultImports": true,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "module": 99,
+      "moduleResolution": 2,
+      "isolatedModules": true,
+      "resolveJsonModule": true,
+      "noEmit": true,
+      "jsx": 2,
+      "sourceMap": true,
+      "declaration": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "incremental": true,
+      "noFallthroughCasesInSwitch": true,
+      "configFilePath": "./tsconfig.json"
+    },
+    "referencedMap": {
+      "./node_modules/@types/history/createbrowserhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/createhashhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/creatememoryhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/index.d.ts": [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        "./node_modules/@types/history/locationutils.d.ts",
+        "./node_modules/@types/history/pathutils.d.ts"
+      ],
+      "./node_modules/@types/history/locationutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/pathutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/react-dom/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router-dom/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react-router/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react/index.d.ts": [
+        "./node_modules/@types/prop-types/index.d.ts",
+        "./node_modules/@types/react/global.d.ts",
+        "./node_modules/@types/scheduler/tracing.d.ts",
+        "./node_modules/csstype/index.d.ts"
+      ],
+      "./src/app.tsx": [
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/footer.jsx",
+        "./src/components/login.jsx",
+        "./src/components/navbar.jsx",
+        "./src/components/register.jsx",
+        "./src/components/searchengine.jsx",
+        "./src/context/appcontext/appcontext.jsx",
+        "./src/context/logincontext/loginstate.jsx",
+        "./src/context/registercontext/registerstate.jsx",
+        "./src/context/searchenginecontext/searchenginestate.jsx"
+      ],
+      "./src/components/footer.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/form.tsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/components/formsummary.tsx",
+        "./src/components/input.tsx",
+        "./src/components/label.tsx"
+      ],
+      "./src/components/formsummary.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/input.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/label.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/login.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/logincontext/logincontext.jsx",
+        "./src/context/logincontext/loginstate.jsx"
+      ],
+      "./src/components/navbar.jsx": [
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/register.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/registercontext/registercontext.jsx",
+        "./src/context/registercontext/registerstate.jsx"
+      ],
+      "./src/components/searchengine.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/searchenginecontext/searchenginecontext.jsx",
+        "./src/context/searchenginecontext/searchenginestate.jsx"
+      ],
+      "./src/context/appcontext/appcontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/logincontext/logincontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/logincontext/loginstate.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/logincontext/logincontext.jsx",
+        "./src/context/logincontext/loginreducer.jsx"
+      ],
+      "./src/context/registercontext/registercontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/registercontext/registerstate.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/registercontext/registercontext.jsx",
+        "./src/context/registercontext/registerreducer.jsx"
+      ],
+      "./src/context/searchenginecontext/searchenginecontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/searchenginecontext/searchenginestate.jsx": [
+        "./node_modules/@types/react/index.d.ts",
+        "./src/context/searchenginecontext/searchenginecontext.jsx",
+        "./src/context/searchenginecontext/searchenginereducer.jsx"
+      ],
+      "./src/index.tsx": [
+        "./node_modules/@types/react-dom/index.d.ts",
+        "./node_modules/@types/react/index.d.ts",
+        "./src/app.tsx"
+      ]
+    },
+    "exportedModulesMap": {
+      "./node_modules/@types/history/createbrowserhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/createhashhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/creatememoryhistory.d.ts": [
+        "./node_modules/@types/history/domutils.d.ts",
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/index.d.ts": [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        "./node_modules/@types/history/locationutils.d.ts",
+        "./node_modules/@types/history/pathutils.d.ts"
+      ],
+      "./node_modules/@types/history/locationutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/history/pathutils.d.ts": [
+        "./node_modules/@types/history/index.d.ts"
+      ],
+      "./node_modules/@types/react-dom/index.d.ts": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router-dom/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react-router/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react-router/index.d.ts": [
+        "./node_modules/@types/history/index.d.ts",
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./node_modules/@types/react/index.d.ts": [
+        "./node_modules/@types/prop-types/index.d.ts",
+        "./node_modules/@types/react/global.d.ts",
+        "./node_modules/@types/scheduler/tracing.d.ts",
+        "./node_modules/csstype/index.d.ts"
+      ],
+      "./src/components/formsummary.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/input.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/components/label.tsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/appcontext/appcontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/logincontext/logincontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/registercontext/registercontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ],
+      "./src/context/searchenginecontext/searchenginecontext.jsx": [
+        "./node_modules/@types/react/index.d.ts"
+      ]
+    },
+    "semanticDiagnosticsPerFile": [
+      "./node_modules/@types/history/createbrowserhistory.d.ts",
+      "./node_modules/@types/history/createhashhistory.d.ts",
+      "./node_modules/@types/history/creatememoryhistory.d.ts",
+      "./node_modules/@types/history/domutils.d.ts",
+      "./node_modules/@types/history/index.d.ts",
+      "./node_modules/@types/history/locationutils.d.ts",
+      "./node_modules/@types/history/pathutils.d.ts",
+      "./node_modules/@types/json-schema/index.d.ts",
+      "./node_modules/@types/json5/index.d.ts",
+      "./node_modules/@types/prop-types/index.d.ts",
+      "./node_modules/@types/q/index.d.ts",
+      "./node_modules/@types/react-dom/index.d.ts",
+      "./node_modules/@types/react-router-dom/index.d.ts",
+      "./node_modules/@types/react-router/index.d.ts",
+      "./node_modules/@types/react/global.d.ts",
+      "./node_modules/@types/react/index.d.ts",
+      "./node_modules/@types/scheduler/index.d.ts",
+      "./node_modules/@types/scheduler/tracing.d.ts",
+      "./node_modules/csstype/index.d.ts",
+      "./node_modules/typescript/lib/lib.dom.d.ts",
+      "./node_modules/typescript/lib/lib.dom.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.collection.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.core.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.generator.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.iterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.proxy.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.reflect.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.array.include.d.ts",
+      "./node_modules/typescript/lib/lib.es2016.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2017.typedarrays.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.asynciterable.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2018.regexp.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.array.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.object.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2019.symbol.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.bigint.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.intl.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.promise.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.string.d.ts",
+      "./node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts",
+      "./node_modules/typescript/lib/lib.es5.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.intl.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.promise.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.string.d.ts",
+      "./node_modules/typescript/lib/lib.esnext.weakref.d.ts",
+      [
+        "./src/app.tsx",
+        [
+          {
+            "file": "./src/app.tsx",
+            "start": 288,
+            "length": 4,
+            "messageText": "'Link' is declared but its value is never read.",
+            "category": 1,
+            "code": 6133,
+            "reportsUnnecessary": true
+          }
+        ]
+      ],
+      "./src/components/footer.jsx",
+      "./src/components/form.tsx",
+      "./src/components/formsummary.tsx",
+      "./src/components/input.tsx",
+      "./src/components/label.tsx",
+      "./src/components/login.jsx",
+      "./src/components/navbar.jsx",
+      "./src/components/register.jsx",
+      "./src/components/searchengine.jsx",
+      "./src/context/appcontext/appcontext.jsx",
+      "./src/context/logincontext/logincontext.jsx",
+      "./src/context/logincontext/loginreducer.jsx",
+      "./src/context/logincontext/loginstate.jsx",
+      "./src/context/registercontext/registercontext.jsx",
+      "./src/context/registercontext/registerreducer.jsx",
+      "./src/context/registercontext/registerstate.jsx",
+      "./src/context/searchenginecontext/searchenginecontext.jsx",
+      "./src/context/searchenginecontext/searchenginereducer.jsx",
+      "./src/context/searchenginecontext/searchenginestate.jsx",
+      "./src/context/types.js",
+      "./src/index.tsx"
+    ],
+    "affectedFilesPendingEmit": [
+      [
+        "./node_modules/@types/history/createbrowserhistory.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/createhashhistory.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/creatememoryhistory.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/domutils.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/locationutils.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/history/pathutils.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/json-schema/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/json5/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/prop-types/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/q/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react-dom/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react-router-dom/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react-router/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react/global.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/react/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/scheduler/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/@types/scheduler/tracing.d.ts",
+        1
+      ],
+      [
+        "./node_modules/csstype/index.d.ts",
+        1
+      ],
+      [
+        "./node_modules/typescript/lib/lib.es2015.d.ts",
+        1
+      ],
+      [
+        "./node_modules/typescript/lib/lib.es2016.d.ts",
+        1
+      ],
+      [
+        "./node_modules/typescript/lib/lib.es2017.d.ts",
+        1
+      ],
+      [
+        "./node_modules/typescript/lib/lib.es2018.d.ts",
+        1
+      ],
+      [
+        "./node_modules/typescript/lib/lib.es2019.d.ts",
+        1
+      ],
+      [
+        "./node_modules/typescript/lib/lib.es2020.d.ts",
+        1
+      ],
+      [
+        "./node_modules/typescript/lib/lib.esnext.d.ts",
+        1
+      ],
+      [
+        "./src/app.tsx",
+        1
+      ],
+      [
+        "./src/components/footer.jsx",
+        1
+      ],
+      [
+        "./src/components/form.tsx",
+        1
+      ],
+      [
+        "./src/components/formsummary.tsx",
+        1
+      ],
+      [
+        "./src/components/input.tsx",
+        1
+      ],
+      [
+        "./src/components/label.tsx",
+        1
+      ],
+      [
+        "./src/components/login.jsx",
+        1
+      ],
+      [
+        "./src/components/navbar.jsx",
+        1
+      ],
+      [
+        "./src/components/register.jsx",
+        1
+      ],
+      [
+        "./src/components/searchengine.jsx",
+        1
+      ],
+      [
+        "./src/context/appcontext/appcontext.jsx",
+        1
+      ],
+      [
+        "./src/context/contextapp.tsx",
+        1
+      ],
+      [
+        "./src/context/logincontext/logincontext.jsx",
+        1
+      ],
+      [
+        "./src/context/logincontext/loginreducer.jsx",
+        1
+      ],
+      [
+        "./src/context/logincontext/loginstate.jsx",
+        1
+      ],
+      [
+        "./src/context/registercontext/registercontext.jsx",
+        1
+      ],
+      [
+        "./src/context/registercontext/registerreducer.jsx",
+        1
+      ],
+      [
+        "./src/context/registercontext/registerstate.jsx",
+        1
+      ],
+      [
+        "./src/context/searchenginecontext/searchenginecontext.jsx",
+        1
+      ],
+      [
+        "./src/context/searchenginecontext/searchenginereducer.jsx",
+        1
+      ],
+      [
+        "./src/context/searchenginecontext/searchenginestate.jsx",
+        1
+      ],
+      [
+        "./src/context/types.js",
+        1
+      ],
+      [
+        "./src/index.tsx",
+        1
+      ]
+    ]
+  },
+  "version": "4.2.3"
+}
