@@ -30,13 +30,13 @@ export default function Login() {
   return (
     <div className=''>
       <div className='flex flex-col max-w-md mx-auto mt-4'>
-        <div className='mb-3'>
+        <div className='mb-3 bg-primaryBg'>
           <Button variant="outlined" className='w-full shadow-md'><FacebookIcon color='primary' className='absolute left-2'/>Kontynuuj z Facebook</Button>
         </div>
-        <div className='mb-3'>
+        <div className='mb-3 bg-primaryBg'>
           <Button variant="outlined" className='w-full shadow-md'>Kontynuuj z Google</Button>
         </div>
-        <div className='mb-3'> 
+        <div className='mb-3 bg-primaryBg'> 
           <Button variant="outlined" className='w-full shadow-md'><AppleIcon className='absolute left-2'/>Kontynuuj z Apple</Button>
         </div>
       </div>

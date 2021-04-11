@@ -13,12 +13,13 @@ import SearchEngineState from "./context/SearchEngineContext/SearchEngineState"
 import SearchEngine from "./components/SearchEngine"
 import Slider from "./components/Slider/Slider"
 import QAndA from './components/Q&A'
+import SearchedDoctor from "./components/SearchedDoctor"
 
 function App() {
   return (
     <AppContext.Provider value={null}>
       <Router>
-        <div className="flex flex-col min-h-screen">
+        <div className="flex flex-col min-h-screen bg-gray-200">
           <Navbar />
           <div className="flex-1">
             <Switch>
@@ -40,6 +41,7 @@ function App() {
                 <SearchEngineState>
                       <SearchEngine/>
                       <Slider/>
+                      <SearchedDoctor/>
                 </SearchEngineState>
               </Route>
             </Switch>
