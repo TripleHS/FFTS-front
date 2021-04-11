@@ -16,7 +16,7 @@ const Navbar = () => {
               <Link to="/q&a">Pytania i odpowiedzi</Link>
             </li>
             <li className="li-styles">
-              <Link to="/contact">Kontakt</Link>
+              <a href='#footer'>Kontakt</a>
             </li>
             <li className="li-styles">
               <Link to="/register">Zarejestruj się</Link>

@@ -26,7 +26,7 @@ const Footer = () => {
   )
 
   return (
-    <footer>
+    <footer id="footer">
       <div className="pt-2 bg-footer">
         <div className="flex justify-center">
           <img className="w-12 m-4" src={heart} alt="logo" />
