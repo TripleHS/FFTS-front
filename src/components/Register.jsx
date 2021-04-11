@@ -1,6 +1,9 @@
 import React, { FormEvent, useContext } from "react"
 import RegisterContext from "../context/RegisterContext/RegisterContext"
 import RegisterState from "../context/RegisterContext/RegisterState"
+import Button from '@material-ui/core/Button';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import AppleIcon from '@material-ui/icons/Apple';
 
 export default function Register() {
   const initialRegisterData = {
@@ -33,28 +36,44 @@ export default function Register() {
 
   return (
     <div className="">
+      <div className='flex flex-col max-w-md mx-auto mt-4'>
+        <div className='mb-3'>
+          <Button variant="outlined" className='w-full shadow-md'><FacebookIcon color='primary' className='absolute left-2'/>Kontynuuj z Facebook</Button>
+        </div>
+        <div className='mb-3'>
+          <Button variant="outlined" className='w-full shadow-md'>Kontynuuj z Google</Button>
+        </div>
+        <div className='mb-3'> 
+          <Button variant="outlined" className='w-full shadow-md'><AppleIcon className='absolute left-2'/>Kontynuuj z Apple</Button>
+        </div>
+      </div>
+      <div className='flex justify-center items-center my-auto'>
+        <hr className='bg-gray-400 w-60 mr-1'/>
+        <span className='w-24 text-center'>lub</span>
+        <hr className='bg-gray-400 w-60 ml-1'/>
+      </div>
       <form
-        className="flex flex-col m-5 bg-gray-200 w-2/4 basis rounded-md p-2 text-center"
+        className="flex flex-col m-5 bg-primaryBg w-2/4 rounded-md p-2 text-center max-w-md mx-auto"
         onSubmit={(e) => handleFormSubmit(e)}
       >
-        <div className="flex justify-center p-1">
-          <label className="w-1/3 text-right pr-2" htmlFor="name">
+        <div className="flex p-1">
+          <label className="w-1/3 text-left pr-2" htmlFor="name">
             Imię:
           </label>
           <input
-            className='{`${type === "text" ? "w-2/5" : "w-1/5"} shadow-md border-gray-500 border ${className}`}'
+            className='w-2/3 shadow-md border-gray-400 border ${className}`}'
             type="text"
             value={name}
             name="name"
             onChange={(e) => dispatch({ type: "SET_NAME", content: e.target.value })}
           />
         </div>
-        <div className="flex justify-center p-1">
-          <label className="w-1/3 text-right pr-2" htmlFor="surname">
+        <div className="flex p-1">
+          <label className="w-1/3 text-left pr-2" htmlFor="surname">
             Nazwisko:
           </label>
           <input
-            className='{`${type === "text" ? "w-2/5" : "w-1/5"} shadow-md border-gray-500 border ${className}`}'
+            className='w-2/3 shadow-md border-gray-400 border ${className}`}'
             type="text"
             name="surname"
             value={surname}
@@ -63,24 +82,24 @@ export default function Register() {
             }
           />
         </div>
-        <div className="flex justify-center p-1">
-          <label className="w-1/3 text-right pr-2" htmlFor="city">
+        <div className="flex p-1">
+          <label className="w-1/3 text-left text-base pr-2" htmlFor="city">
             Miasto:
           </label>
           <input
-            className='{`${type === "text" ? "w-2/5" : "w-1/5"} shadow-md border-gray-500 border ${className}`}'
+            className='w-2/3 shadow-md border-gray-400 border ${className}`}'
             type="text"
             name="city"
             value={city}
             onChange={(e) => dispatch({ type: "SET_CITY", content: e.target.value })}
           />
         </div>
-        <div className="flex justify-center p-1">
-          <label className="w-1/3 text-right pr-2" htmlFor="email">
+        <div className="flex p-1">
+          <label className="w-1/3 text-left pr-2" htmlFor="email">
             E-mail:
           </label>
           <input
-            className='{`${type === "text" ? "w-2/5" : "w-1/5"} shadow-md border-gray-500 border ${className}`}'
+            className='w-2/3 shadow-md border-gray-400 border ${className}`}'
             type="text"
             name="email"
             value={email}
@@ -89,12 +108,12 @@ export default function Register() {
             }
           />
         </div>
-        <div className="flex justify-center p-1">
-          <label className="w-1/3 text-right pr-2" htmlFor="password">
+        <div className="flex p-1">
+          <label className="w-1/3 text-left pr-2" htmlFor="password">
             Hasło:
           </label>
           <input
-            className='{`${type === "text" ? "w-2/5" : "w-1/5"} shadow-md border-gray-500 border ${className}`}'
+            className='w-2/3 shadow-md border-gray-400 border ${className}`}'
             type="text"
             name="password"
             value={password}
@@ -103,12 +122,12 @@ export default function Register() {
             }
           />
         </div>
-        <div className="flex justify-center p-1">
-          <label className="w-1/3 text-right pr-2" htmlFor="repassword">
+        <div className="flex p-1 pb-2">
+          <label className="w-1/3 text-left pr-2" htmlFor="repassword">
             Powtórz hasło:
           </label>
           <input
-            className='{`${type === "text" ? "w-2/5" : "w-1/5"} shadow-md border-gray-500 border ${className}`}'
+            className='w-2/3 shadow-md border-gray-400 border ${className}`}'
             type="text"
             name="repassword"
             value={repassword}
@@ -117,9 +136,7 @@ export default function Register() {
             }
           />
         </div>
-        <button type="submit" className="m-auto">
-          Wyślij
-        </button>
+        <Button variant="contained" color='primary' className='w-2/5 self-center'>Zarejestruj się</Button>
       </form>
     </div>
   )

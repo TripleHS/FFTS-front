@@ -4,6 +4,9 @@
 /* purgecss end ignore */
 @tailwind utilities;
 
+html{
+  scroll-behavior: smooth;
+}
 body {
   height: 100vh;
 }

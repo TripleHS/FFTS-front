@@ -12,6 +12,7 @@ import Login from "./components/Login"
 import SearchEngineState from "./context/SearchEngineContext/SearchEngineState"
 import SearchEngine from "./components/SearchEngine"
 import Slider from "./components/Slider/Slider"
+import QAndA from './components/Q&A'
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
           <div className="flex-1">
             <Switch>
               <Route path="/contact"></Route>
-              <Route path="/q&a"></Route>
+              <Route path="/q&a">
+                <QAndA/>
+              </Route>
               <Route path="/register">
                 <RegisterState>
                   <Register />

@@ -1,6 +1,7 @@
 import React, { FormEvent, useContext } from "react"
 import SearchEngineContext from "../context/SearchEngineContext/SearchEngineContext"
 import SearchEngineState from "../context/SearchEngineContext/SearchEngineState"
+import Button from '@material-ui/core/Button';
 
 export default function SearchEngine() {
   const initialRegisterData = {
@@ -27,7 +28,7 @@ export default function SearchEngine() {
   return (
     <div className="flex justify-center">
       <form
-        className="flex flex-col m-5 bg-gray-200 w-2/4 basis rounded-md p-2 text-center"
+        className="flex flex-col m-5 bg-primaryBg w-2/4 basis rounded-md p-2 text-center"
         onSubmit={(e) => handleFormSubmit(e)}
       >
         <div className="flex justify-center p-1">
@@ -56,9 +57,7 @@ export default function SearchEngine() {
             onChange={(e) => dispatch({ type: "SET_CITY", content: e.target.value })}
           />
         </div>
-        <button type="submit" className="m-auto">
-          Wyślij
-        </button>
+        <Button variant="contained" color='primary' className='w-1/5 self-center'>Wyszukaj</Button>
       </form>
     </div>
   )
