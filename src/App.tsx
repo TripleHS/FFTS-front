@@ -39,9 +39,22 @@ function App() {
               </Route>
               <Route path="">
                 <SearchEngineState>
-                      <SearchEngine/>
+                  <div className='flex'>
+                    <div className='leftSide flex-1'>
+                        <SearchEngine/>
+                        <div>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                        </div>
+                    </div>
+                    <div className='rightSide fixed right-4 top-20'>
                       <Slider/>
-                      <SearchedDoctor/>
+                    </div>
+                  </div>
                 </SearchEngineState>
               </Route>
             </Switch>
