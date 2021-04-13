@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import "tailwindcss/tailwind.css"
 // import Form from "./components/Form"
 import AppContext from "./context/AppContext/AppContext"
@@ -16,11 +16,13 @@ import QAndA from './components/Q&A'
 import SearchedDoctor from "./components/SearchedDoctor"
 
 function App() {
+ const [isLogged, setIsLogged] = useState(true)
+
   return (
-    <AppContext.Provider value={null}>
+    <AppContext.Provider value={{isLogged, setIsLogged}}>
       <Router>
         <div className="flex flex-col min-h-screen bg-gray-200">
-          <Navbar />
+          <Navbar/>
           <div className="flex-1">
             <Switch>
               <Route path="/contact"></Route>

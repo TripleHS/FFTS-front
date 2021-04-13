@@ -65,7 +65,7 @@ export default function Login() {
           <input
             className='w-3/4 shadow-md border-gray-400 border ${className}`}'
             placeholder='Hasło'
-            type="text"
+            type="password"
             name="password"
             value={password}
             onChange={(e) =>
