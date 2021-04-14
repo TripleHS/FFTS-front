@@ -1,4 +1,4 @@
-import React from "react"
+import React, {useState} from "react"
 import "tailwindcss/tailwind.css"
 // import Form from "./components/Form"
 import AppContext from "./context/AppContext/AppContext"
@@ -16,11 +16,13 @@ import QAndA from './components/Q&A'
 import SearchedDoctor from "./components/SearchedDoctor"
 
 function App() {
+ const [isLogged, setIsLogged] = useState(true)
+
   return (
-    <AppContext.Provider value={null}>
+    <AppContext.Provider value={{isLogged, setIsLogged}}>
       <Router>
         <div className="flex flex-col min-h-screen bg-gray-200">
-          <Navbar />
+          <Navbar/>
           <div className="flex-1">
             <Switch>
               <Route path="/contact"></Route>
@@ -39,9 +41,22 @@ function App() {
               </Route>
               <Route path="">
                 <SearchEngineState>
-                      <SearchEngine/>
+                  <div className='flex'>
+                    <div className='leftSide flex-1'>
+                        <SearchEngine/>
+                        <div>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                          <SearchedDoctor/>
+                        </div>
+                    </div>
+                    <div className='rightSide fixed right-4 top-20'>
                       <Slider/>
-                      <SearchedDoctor/>
+                    </div>
+                  </div>
                 </SearchEngineState>
               </Route>
             </Switch>

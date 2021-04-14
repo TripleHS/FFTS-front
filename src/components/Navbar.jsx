@@ -1,8 +1,11 @@
-import React from "react"
+import React, { useContext } from "react"
 import heart from "../images/heart.png"
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom"
+import AppContext from '../context/AppContext/AppContext'
 
 const Navbar = () => {
+  const {isLogged, setIsLogged} = useContext(AppContext);
+  
   return (
     <nav>
       <div className="flex p-2 justify-between">
@@ -18,12 +21,28 @@ const Navbar = () => {
             <li className="li-styles">
               <a href='#footer'>Kontakt</a>
             </li>
-            <li className="li-styles">
-              <Link to="/register">Zarejestruj się</Link>
-            </li>
-            <li className="li-styles">
-              <Link to="/login">Zaloguj się</Link>
-            </li>
+            {isLogged?
+            <>
+              <li className="li-styles">
+                <Link to="/myaccount">Moje konto</Link>
+              </li>
+              <li className="li-styles">
+                <Link to="/myvisits">Moje wizyty</Link>
+              </li>
+              <li className="li-styles">
+                <Link to="" onClick={()=>setIsLogged(prevState=>!prevState)}>Wyloguj się</Link>
+              </li>
+            </>
+            :
+            <>
+              <li className="li-styles">
+                <Link to="/register">Zarejestruj się</Link>
+              </li>
+              <li className="li-styles">
+                <Link to="/login">Zaloguj się</Link>
+              </li>
+            </>
+            }
           </ul>
           <p className="text-secondaryBg my-auto mr-4">Infolinia: 874 459 985</p>
         </div>

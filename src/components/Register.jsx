@@ -114,7 +114,7 @@ export default function Register() {
           </label>
           <input
             className='w-2/3 shadow-md border-gray-400 border ${className}`}'
-            type="text"
+            type="password"
             name="password"
             value={password}
             onChange={(e) =>
@@ -128,7 +128,7 @@ export default function Register() {
           </label>
           <input
             className='w-2/3 shadow-md border-gray-400 border ${className}`}'
-            type="text"
+            type="password"
             name="repassword"
             value={repassword}
             onChange={(e) =>
